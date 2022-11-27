@@ -22,11 +22,13 @@ body {
 }
 
 #open-menu {
-    background-color: rgb(211, 213, 219, 0.9);
+    background-color: rgb(211, 213, 219, 0.8);
     margin: 0 30%;
     text-align: center;
     margin-top: 5%;
     font-size: 1.5rem;
+    padding: 1%;
+    border-radius: 5px;
 }
 
 .navbar-toggler {
@@ -39,6 +41,20 @@ body {
 
 button:focus:not(:focus-visible) {
     box-shadow: none;
+}
+
+.navbar-nav li {
+    min-height: 70px;
+    border-top: 1px solid rgb(189, 185, 185);
+    border-bottom: 1px solid rgb(189, 185, 185);
+}
+
+.navbar-nav li:hover {
+    border-bottom: 5px solid rgba(126, 30, 30, 0.75);
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    width: 30%;
+    margin: 0 auto;
 }
 
 /* burger svg */
