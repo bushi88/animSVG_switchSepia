@@ -1,3 +1,2 @@
 # animSVG_switchSepia
-animated burger menu with css
-+ switch button for background sepia
+animated svg burger menu with css and switch button for background sepia
